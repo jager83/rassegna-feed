@@ -1,0 +1,214 @@
+{
+  "giro": "2026-10-17-1400",
+  "generato": "2026-10-17T11:58:00+02:00",
+  "scarno": false,
+  "avvisi": [],
+  "voci": [
+    {
+      "id": "2026-10-17-1400-ai-1",
+      "sezione": "ai",
+      "titolo": "Claude ricostruisce l'origine dei seed delle curve ellittiche NIST",
+      "sintesi": "Anthropic racconta che Claude, in meno di mezz'ora, ha scoperto che i seed delle curve NIST P-192…P-521 derivano da lrand48 inizializzato con un timestamp Unix, non dall'hash di una passphrase. Non è una rottura crittografica: rende però meno plausibile l'ipotesi di backdoor, perché i seed sono ora riproducibili. Restano aperti il seed di B-163 e l'origine di alcuni punti base.",
+      "perche": "Esempio concreto di agente che fa archeologia su codice e standard vecchi di decenni: utile per capire cosa chiedere a un agente nei tuoi progetti di reverse engineering e verifica.",
+      "tags": [
+        "claude",
+        "ricerca-ai",
+        "crittografia"
+      ],
+      "fonte": "anthropic.com",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "data": "2026-10-16",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-17-1400-ai-2",
+      "sezione": "ai",
+      "titolo": "Code review continua: come il team di Claude Code ripensa il controllo del codice",
+      "sintesi": "Simon Willison riporta il passaggio chiave del post del team Claude Code: chiedersi se un umano ha letto il codice misura male il rischio; conta quale controllo, automatico o umano, intercetta cosa. La review avviene durante la scrittura e Claude corregge i problemi di routine prima che arrivi una persona.",
+      "perche": "Spunto pratico per organizzare review e CI nei tuoi repo con agenti: controlli a livelli in base al rischio, lasciando agli umani le questioni di design.",
+      "tags": [
+        "claude-code",
+        "code-review",
+        "agenti"
+      ],
+      "fonte": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+      "data": "2026-10-16",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1400-web-1",
+      "sezione": "web",
+      "titolo": "JPEG XL contro AVIF sul web: Jake Archibald confronta i due formati",
+      "sintesi": "Per foto con perdita AVIF produce di solito file più piccoli (JPEG XL 15-25% più grande a effort predefinito); per screenshot, illustrazioni e trasparenza il divario è ancora maggiore. JPEG XL vince su lossless e ricompressione di JPEG esistenti (-9/20%). Ora JPEG XL è supportato in tutti i principali browser.",
+      "perche": "Aiuta a scegliere il formato immagini per i tuoi siti WordPress e le pipeline di build: default AVIF 4:4:4, JPEG XL per lossless e archivi JPEG.",
+      "provalo": "<picture><source srcset=\"foto.avif\" type=\"image/avif\"><source srcset=\"foto.jxl\" type=\"image/jxl\"><img src=\"foto.jpg\" alt=\"\"></picture>",
+      "tags": [
+        "immagini",
+        "avif",
+        "jpeg-xl",
+        "performance"
+      ],
+      "fonte": "jakearchibald.com",
+      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+      "data": "2026-10-15",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1400-web-2",
+      "sezione": "web",
+      "titolo": "Volatilità nei ranking di Google dopo lo spam update di settembre",
+      "sintesi": "Search Engine Roundtable segnala un picco di volatilità e cali di traffico dopo lo spam update di settembre 2026 (24 settembre-8 ottobre, con tre ondate). Aumentano le azioni manuali e Google News e Discover mostrano storie vecchie; i tool di rank tracking sono poco affidabili.",
+      "perche": "Se gestisci siti o monitori GA4 e Search Console, vale la pena distinguere i cali legati ad aggiornamenti Google da quelli dovuti a regressioni tue.",
+      "tags": [
+        "google-search",
+        "seo",
+        "analytics"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/google-search-ranking-volatility-chatter-42317.html",
+      "data": "2026-10-16",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1400-web-3",
+      "sezione": "web",
+      "titolo": "Google Ads API: due release al mese fino al 2027",
+      "sintesi": "Google passa l'Ads API da una a due release al mese a partire dalla v26, per tutto il resto del 2026 e nel 2027, citando la velocità richiesta dai flussi con agenti automatici. Le date sono stime e alcune release saltano durante le feste.",
+      "perche": "Se mantieni integrazioni con Google Ads, dovrai aggiornare le librerie client più spesso e controllare le deprecazioni.",
+      "tags": [
+        "google-ads",
+        "api",
+        "google"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/google-ads-api-twice-a-month-42303.html",
+      "data": "2026-10-16",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-17-1400-sport-1",
+      "sezione": "sport",
+      "titolo": "Bologna-Inter alle 18: Chivu senza Lautaro e Pavard",
+      "sintesi": "Per la 7ª giornata di Serie A Inter a Bologna alle 18. Out Lautaro e Pavard, Pio Esposito favorito su Bonny per affiancare Thuram. Zielinski dovrebbe fare il regista, Calhanoglu in panchina. Bologna con Darmian centrale e Piccoli favorito in attacco.",
+      "perche": "Calcio e Serie A, tra i tuoi interessi principali; oggi si gioca la partita.",
+      "tags": [
+        "calcio",
+        "serie-a",
+        "inter"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/calcio/serie-a/2026/10/16/bologna-inter-probabili-formazioni-7-giornata",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1400-sport-2",
+      "sezione": "sport",
+      "titolo": "Medvedev in semifinale a Shanghai: sfida Jodar",
+      "sintesi": "Medvedev batte Paul 6-3 1-6 6-3 e raggiunge la 70ª semifinale in carriera; affronta Jodar, che ha rimontato Ruud. Semifinale oggi alle 13, finale domenica alle 10:30 contro il vincente di Zverev-Davidovich Fokina.",
+      "perche": "Tennis tra i temi sportivi di interesse; semifinale e finale sono imminenti.",
+      "tags": [
+        "tennis",
+        "atp-shanghai"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/tennis/atp-masters-1000-shanghai-2026-tabellone",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1400-sport-3",
+      "sezione": "sport",
+      "titolo": "Errani e Paolini in semifinale a Wuhan nel doppio",
+      "sintesi": "Le azzurre battono le teste di serie numero 2 Danilina/Zhang 6-3 6-2 in poco più di un'ora. È la prima semifinale insieme da marzo; oggi sfidano Hunter/Siniakova.",
+      "perche": "Tennis italiano, in linea con i tuoi interessi sportivi.",
+      "tags": [
+        "tennis",
+        "wta-wuhan"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/tennis/2026/10/16/errani-paolini-wta-wuhan-risultato-highlights-oggi",
+      "data": "2026-10-16",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1400-sport-4",
+      "sezione": "sport",
+      "titolo": "Eurolega: la Virtus Bologna batte Baskonia 86-78",
+      "sintesi": "Parte con un 10-0 e va all'intervallo avanti di 12; Baskonia rientra fino al pari, ma la Virtus allunga nel finale. È la quarta vittoria consecutiva in Eurolega.",
+      "perche": "Basket, tema a peso basso ma nel tuo profilo; voce di esplorazione.",
+      "tags": [
+        "basket",
+        "eurolega"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/basket/eurolega/2026/10/16/virtus-bologna-baskonia-eurolega-highlights-video",
+      "data": "2026-10-16",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-17-1400-cronaca-1",
+      "sezione": "cronaca",
+      "titolo": "Il Papa lascia oggi il Gemelli, idoneo alla dimissione",
+      "sintesi": "Leone XIV, operato al polmone destro, viene dimesso dal Policlinico Gemelli nel primo pomeriggio e rientra in Vaticano. Domani guiderà l'Angelus dalla finestra dell'appartamento papale.",
+      "perche": "Cronaca italiana, tema ad alto peso nel tuo profilo.",
+      "tags": [
+        "cronaca-italia",
+        "vaticano"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/17/il-papa-lascera-lospedale-oggi-pomeriggio-idoneo-alla-dimissione_817dc66f-ecae-40d4-abe8-24be1d331809.html",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1400-cronaca-2",
+      "sezione": "cronaca",
+      "titolo": "Ex Ilva, cassa integrazione fino a 8.622 lavoratori",
+      "sintesi": "Acciaierie d'Italia avvia la procedura per la Cigs fino al 28 febbraio 2027: fino a 8.622 lavoratori su 9.626, contro i 4.450 attuali. A Taranto fino a 6.964 su 7.875.",
+      "perche": "Cronaca italiana, tema ad alto peso: impatto occupazionale e industriale.",
+      "tags": [
+        "cronaca-italia",
+        "ex-ilva",
+        "lavoro"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/10/17/ex-ilva-comunicata-richiesta-di-cigs-per-un-massimo-di-8622-lavoratori_416ee81c-5c38-4103-a018-5768a95cb2eb.html",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1400-cronaca-3",
+      "sezione": "cronaca",
+      "titolo": "Studenti in piazza, scontri a Torino e Roma: Meloni condanna le violenze",
+      "sintesi": "Nel 'No Meloni Day' gli organizzatori dichiarano oltre 400mila partecipanti. Scontri con la polizia a Torino e Roma, circa dieci agenti feriti; tre minorenni arrestati a Torino. Nuova mobilitazione oggi con la Cgil.",
+      "perche": "Cronaca italiana di attualità, in linea con i tuoi interessi.",
+      "tags": [
+        "cronaca-italia",
+        "scuola",
+        "proteste"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/16/gli-studenti-si-prendono-le-piazze-meloni-violenze-da-condannare_ff9071cf-026e-438f-8153-f7d47a260b42.html",
+      "data": "2026-10-16",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1400-cronaca-4",
+      "sezione": "cronaca",
+      "titolo": "Trump sospende sanzioni e dazi sull'export russo",
+      "sintesi": "Con un ordine esecutivo e una deroga di interesse nazionale, Trump sospende i dazi e parte delle sanzioni previste dalla legge Graham, citando i prezzi del diesel prima delle midterm del 3 novembre. Le sanzioni già in vigore restano. Mosca parla di decisione storica, Zelensky di premio a Putin.",
+      "perche": "Cronaca estera di rilievo geopolitico ed energetico, con effetti anche sull'Europa.",
+      "tags": [
+        "cronaca-estero",
+        "russia",
+        "usa"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/17/trump-sospende-sanzioni-e-dazi-alla-russia-sullexport_c94c6910-154f-4071-9bce-b30372b93263.html",
+      "data": "2026-10-17",
+      "esplorazione": false
+    }
+  ]
+}
