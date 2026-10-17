@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Rassegna</title>
+  <style>
+    /* Token */
+    :root {
+      --bg: #f6f5f2;
+      --card: #ffffff;
+      --ink: #1d1d1f;
+      --ink-2: #55565c;
+      --line: #e3e1dc;
+      --accent: #2f5bd3;
+      --accent-soft: #e6ecfb;
+      --up: #1f7a45;
+      --down: #b3261e;
+      --radius: 12px;
+      --gap: 16px;
+      color-scheme: light dark;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141416;
+        --card: #1e1e21;
+        --ink: #ececef;
+        --ink-2: #a5a6ad;
+        --line: #303035;
+        --accent: #8eaaff;
+        --accent-soft: #24304f;
+        --up: #6fd49a;
+        --down: #ff8a80;
+      }
+    }
+
+    /* Base */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    code {
+      font-family: ui-monospace, Menlo, monospace;
+      font-size: 0.9em;
+      overflow-wrap: anywhere;
+    }
+
+    /* Header e navigazione */
+    .testata {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: var(--bg);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      display: flex;
+      gap: 4px;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 8px var(--gap);
+      overflow-x: auto;
+    }
+
+    .nav a {
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: var(--ink-2);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .nav a[aria-current="page"] {
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* Contenuto */
+    .contenuto {
+      max-width: 760px;
+      min-height: 80vh;
+      margin: 0 auto;
+      padding: var(--gap);
+    }
+
+    .contenuto:focus {
+      outline: none;
+    }
+
+    .scheletro {
+      height: 160px;
+      margin-bottom: var(--gap);
+      border-radius: var(--radius);
+      background: var(--card);
+      border: 1px solid var(--line);
+    }
+
+    .giro__titolo {
+      margin: 0 0 var(--gap);
+      color: var(--ink-2);
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    .sezione__titolo {
+      margin: 24px 0 8px;
+      font-size: 1.15rem;
+    }
+
+    .voce {
+      margin-bottom: 12px;
+      padding: var(--gap);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--card);
+    }
+
+    .voce__titolo {
+      margin: 0 0 6px;
+      font-size: 1.05rem;
+      line-height: 1.35;
+    }
+
+    .voce p {
+      margin: 0 0 8px;
+    }
+
+    .voce__perche,
+    .voce__provalo,
+    .nota {
+      color: var(--ink-2);
+      font-size: 0.95rem;
+    }
+
+    .voce__piede {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 0.9rem;
+    }
+
+    .voce__voti {
+      display: flex;
+      gap: 8px;
+    }
+
+    .vote {
+      min-width: 44px;
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: transparent;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+
+    .vote[aria-pressed="true"] {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .badge {
+      display: inline-block;
+      margin-right: 6px;
+      padding: 1px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .badge--esplora {
+      background: transparent;
+      border: 1px dashed var(--accent);
+    }
+
+    .avviso,
+    .banner {
+      margin: 0 0 var(--gap);
+      padding: 8px 12px;
+      border-radius: var(--radius);
+      background: var(--accent-soft);
+    }
+
+    .banner {
+      max-width: 760px;
+      margin: 8px max(var(--gap), calc((100% - 760px) / 2)) 0;
+    }
+
+    .banner--errore {
+      color: var(--down);
+    }
+
+    .vuoto {
+      color: var(--ink-2);
+    }
+
+    .storico__lista,
+    .saldi ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    .storico__lista a {
+      display: block;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .saldo {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .saldo__dettaglio {
+      margin-left: auto;
+      padding-right: 12px;
+      color: var(--ink-2);
+      font-size: 0.85rem;
+    }
+
+    .saldo--su .saldo__valore {
+      color: var(--up);
+    }
+
+    .saldo--giu .saldo__valore {
+      color: var(--down);
+    }
+
+    .token {
+      display: grid;
+      gap: 8px;
+      margin: var(--gap) 0;
+    }
+
+    .token input,
+    .token button,
+    .impostazioni > button {
+      min-height: 44px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--card);
+      color: var(--ink);
+      font: inherit;
+    }
+
+    /* Tablet */
+    @media (min-width: 769px) {
+      .voce {
+        padding: 20px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="testata">
+    <nav class="nav" aria-label="Sezioni">
+      <a href="#/" data-route="ultimo">Ultimo</a>
+      <a href="#/storico" data-route="storico">Storico</a>
+      <a href="#/te" data-route="te">Cosa ho imparato</a>
+      <a href="#/impostazioni" data-route="impostazioni">Impostazioni</a>
+    </nav>
+  </header>
+  <div id="banner"></div>
+  <main id="main" class="contenuto" tabindex="-1">
+    <div class="scheletro" aria-hidden="true"></div>
+    <div class="scheletro" aria-hidden="true"></div>
+    <div class="scheletro" aria-hidden="true"></div>
+  </main>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
