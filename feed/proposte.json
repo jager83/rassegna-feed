@@ -112,5 +112,93 @@
       "usa"
     ],
     "fonte": "ansa.it"
+  },
+  {
+    "id": "2026-10-17-1630-ai-1",
+    "tags": [
+      "claude-code",
+      "agenti",
+      "code-review"
+    ],
+    "fonte": "anthropic.com"
+  },
+  {
+    "id": "2026-10-17-1630-ai-2",
+    "tags": [
+      "ai",
+      "webassembly",
+      "reverse-engineering"
+    ],
+    "fonte": "simonwillison.net"
+  },
+  {
+    "id": "2026-10-17-1630-web-1",
+    "tags": [
+      "google-search",
+      "seo",
+      "analytics"
+    ],
+    "fonte": "seroundtable.com"
+  },
+  {
+    "id": "2026-10-17-1630-web-2",
+    "tags": [
+      "google-search",
+      "api",
+      "seo"
+    ],
+    "fonte": "seroundtable.com"
+  },
+  {
+    "id": "2026-10-17-1630-sport-1",
+    "tags": [
+      "motogp",
+      "mercato-piloti"
+    ],
+    "fonte": "sport.sky.it"
+  },
+  {
+    "id": "2026-10-17-1630-sport-2",
+    "tags": [
+      "f1",
+      "haas",
+      "mercato-piloti"
+    ],
+    "fonte": "sport.sky.it"
+  },
+  {
+    "id": "2026-10-17-1630-sport-3",
+    "tags": [
+      "tennis",
+      "atp-shanghai"
+    ],
+    "fonte": "sport.sky.it"
+  },
+  {
+    "id": "2026-10-17-1630-cronaca-1",
+    "tags": [
+      "cronaca-italia",
+      "lavoro",
+      "manifestazioni"
+    ],
+    "fonte": "ansa.it"
+  },
+  {
+    "id": "2026-10-17-1630-cronaca-2",
+    "tags": [
+      "cronaca-italia",
+      "femminicidio",
+      "social"
+    ],
+    "fonte": "ansa.it"
+  },
+  {
+    "id": "2026-10-17-1630-cronaca-3",
+    "tags": [
+      "cronaca-estero",
+      "proteste",
+      "francia"
+    ],
+    "fonte": "ansa.it"
   }
 ]

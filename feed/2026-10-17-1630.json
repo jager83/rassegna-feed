@@ -1,0 +1,166 @@
+{
+  "giro": "2026-10-17-1630",
+  "generato": "2026-10-17T16:34:20+02:00",
+  "scarno": false,
+  "avvisi": [],
+  "voci": [
+    {
+      "id": "2026-10-17-1630-ai-1",
+      "sezione": "ai",
+      "titolo": "Anthropic abbandona Git: Scion, il sistema di controllo di versione costruito in casa",
+      "sintesi": "Con le modifiche unite al giorno salite da circa 2.500 a oltre 30.000 in pochi mesi, Anthropic ha migrato il monorepo da Git a Scion, un sistema client-server sempre online, e ha costruito Antique per la code review. Dichiara circa 200 volte meno CPU e memoria rispetto ai mirror Git e checkout CI in secondi. Il team era di sette persone e Claude ha scritto gran parte del codice.",
+      "perche": "Mostra come il volume di codice generato da agenti sposta il collo di bottiglia sugli strumenti di versionamento e review, un tema che toccherà presto anche i flussi di lavoro dei team.",
+      "tags": [
+        "claude-code",
+        "agenti",
+        "code-review"
+      ],
+      "fonte": "anthropic.com",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "data": "2026-10-13",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1630-ai-2",
+      "sezione": "ai",
+      "titolo": "L'IA decompila giochi in massa: opportunità di preservazione e rischi",
+      "sintesi": "Lo sviluppatore indie Popcar descrive l'ondata di decompilazione assistita da IA di giochi esistenti: nascono mashup e progetti di preservazione, spesso con porting nel browser via WebAssembly. Il rischio è che aziende copino la concorrenza o rendano open source software a pagamento senza permesso.",
+      "perche": "Per chi lavora sul web, è un caso concreto di IA che abbassa il costo del reverse engineering e di WebAssembly come target di portabilità.",
+      "tags": [
+        "ai",
+        "webassembly",
+        "reverse-engineering"
+      ],
+      "fonte": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+      "data": "2026-10-14",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-17-1630-web-1",
+      "sezione": "web",
+      "titolo": "Google cambia ancora i link in AI Mode e AI Overviews, ma senza dati sui clic",
+      "sintesi": "Google introduce più link inline, una sezione con uno o due link in evidenza e miniature più grandi, e testa nomi di editori cliccabili sui video. I carousel di notizie si estendono a più paesi e lingue. Nei report sulle prestazioni IA non compaiono ancora dati sui clic.",
+      "perche": "Chi gestisce siti WordPress e analytics non potrà misurare il traffico che arriva dalle risposte IA con gli strumenti Google, quindi servono altre fonti di misura.",
+      "tags": [
+        "google-search",
+        "seo",
+        "analytics"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/google-updates-links-in-ai-mode-and-ai-overviews-again-42308.html",
+      "data": "2026-10-15",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1630-web-2",
+      "sezione": "web",
+      "titolo": "Indexing API: Google aggiorna la documentazione sulle quote",
+      "sintesi": "Il 16 ottobre Google ha modificato tre pagine dell'Indexing API togliendo i dettagli sulla quota predefinita e sul processo di approvazione. Il limite d'uso a offerte di lavoro e live streaming sembra valere ancora. Alcuni sviluppatori riferiscono comportamenti non coerenti con la nuova documentazione.",
+      "perche": "Se usi l'Indexing API per richieste di indicizzazione, non fare affidamento sulla documentazione: verifica la quota reale del tuo account.",
+      "tags": [
+        "google-search",
+        "api",
+        "seo"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/google-updates-indexing-api-quota-information-42316.html",
+      "data": "2026-10-16",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-17-1630-sport-1",
+      "sezione": "sport",
+      "titolo": "MotoGP 2027, Honda sceglie: Moreira in HRC e Alonso in LCR",
+      "sintesi": "Diogo Moreira sarà compagno di Quartararo in Honda HRC e David Alonso debutterà in MotoGP con LCR accanto a Zarco. Sono le ultime due caselle della griglia 2027. Moreira sarà il primo brasiliano nel team ufficiale Honda dal 2004.",
+      "perche": "Chiude il mercato piloti 2027 di MotoGP, in vista del GP d'Australia del 23-25 ottobre.",
+      "tags": [
+        "motogp",
+        "mercato-piloti"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/motogp/2026/10/17/motogp-honda-moreira-hrc-alonso-lcr-2027-news",
+      "data": "2026-10-17",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-17-1630-sport-2",
+      "sezione": "sport",
+      "titolo": "Ufficiale: Rafael Camara alla Haas dal 2027",
+      "sintesi": "Haas ha ingaggiato il ventunenne brasiliano Camara con contratto pluriennale dal Mondiale 2027, al fianco di Bearman. Camara è leader della F2 con 207 punti e fa parte della Ferrari Driver Academy.",
+      "perche": "Notizia di mercato F1, un tuo interesse a peso medio, con un legame Ferrari.",
+      "tags": [
+        "f1",
+        "haas",
+        "mercato-piloti"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/formula-1/2026/10/15/f1-camara-pilota-haas-2027-ufficiale",
+      "data": "2026-10-15",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1630-sport-3",
+      "sezione": "sport",
+      "titolo": "Shanghai: Zverev battuto da Davidovich Fokina, finale tutta spagnola",
+      "sintesi": "Davidovich Fokina ha battuto Zverev 5-7, 6-4, 6-3 in semifinale a Shanghai. Zverev ha parlato di stanchezza e mancanza di energie dopo pochi giorni di riposo.",
+      "perche": "Tennis, già seguito nei giri precedenti, con la finale del Masters 1000.",
+      "tags": [
+        "tennis",
+        "atp-shanghai"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/tennis/2026/10/17/zverev-atp-shanghai-intervista-video",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1630-cronaca-1",
+      "sezione": "cronaca",
+      "titolo": "La Via maestra in piazza a Roma: lavoro, pace, Costituzione",
+      "sintesi": "Corteo nazionale promosso dalla Cgil e da oltre cento associazioni laiche e cattoliche da piazza della Repubblica a piazza del Popolo, con Landini a chiudere. Tra le richieste salari e pensioni più alti, stop al precariato, più fondi per sanità e scuola e no al riarmo.",
+      "perche": "Cronaca italiana, tema ad alto interesse.",
+      "tags": [
+        "cronaca-italia",
+        "lavoro",
+        "manifestazioni"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/17/la-via-maestra-in-piazza-a-roma-lavoro-pace-costituzione-_a783ef65-c2c2-4fb9-8d99-7c64d791f43c.html",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1630-cronaca-2",
+      "sezione": "cronaca",
+      "titolo": "Matteuzzi, la sentenza: gli hater hanno trasformato la vittima in carnefice",
+      "sintesi": "Nelle motivazioni la giudice Polifroni scrive che i commenti d'odio sui social dopo il femminicidio di Alessandra Matteuzzi ribaltavano la colpa sulla vittima. Quattro imputati sono stati condannati per diffamazione aggravata con multe e risarcimenti.",
+      "perche": "Cronaca italiana, con un precedente sulla responsabilità dei commenti online.",
+      "tags": [
+        "cronaca-italia",
+        "femminicidio",
+        "social"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/17/sentenza-gli-hater-hanno-fatto-diventare-alessandra-matteuzzi-carnefice_fe87b28a-17ab-4d98-9028-f9d1cd25dc88.html",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-17-1630-cronaca-3",
+      "sezione": "cronaca",
+      "titolo": "Francia, proteste contro il caro vita: cortei dispersi a Parigi, incidenti a Lione e Marsiglia",
+      "sintesi": "Le manifestazioni contro il costo della vita hanno coinvolto la Francia con oltre 1.750 azioni annunciate. A Parigi sono stati dispersi due cortei non autorizzati, con 61 arresti in mattinata. A Marsiglia i manifestanti sono entrati brevemente nel municipio.",
+      "perche": "Notizia estera di rilievo, a bilanciare la cronaca italiana.",
+      "tags": [
+        "cronaca-estero",
+        "proteste",
+        "francia"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/17/proteste-in-francia-due-cortei-non-autorizzati-dispersi-a-parigi-incidenti-a-lione-e-a-marsiglia_23769778-a3b5-4b11-a769-4ae19c4b2d7e.html",
+      "data": "2026-10-17",
+      "esplorazione": true
+    }
+  ]
+}
