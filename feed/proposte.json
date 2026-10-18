@@ -320,5 +320,83 @@
       "canada"
     ],
     "fonte": "ansa.it"
+  },
+  {
+    "id": "2026-10-18-1400-ai-1",
+    "tags": [
+      "utility",
+      "simonwillison",
+      "tailscale"
+    ],
+    "fonte": "simonwillison.net"
+  },
+  {
+    "id": "2026-10-18-1400-web-1",
+    "tags": [
+      "google-search",
+      "gemini",
+      "ai-mode"
+    ],
+    "fonte": "seroundtable.com"
+  },
+  {
+    "id": "2026-10-18-1400-sport-1",
+    "tags": [
+      "calcio",
+      "serie-a",
+      "napoli"
+    ],
+    "fonte": "sport.sky.it"
+  },
+  {
+    "id": "2026-10-18-1400-sport-2",
+    "tags": [
+      "motorsport",
+      "gtwc",
+      "verstappen"
+    ],
+    "fonte": "sport.sky.it"
+  },
+  {
+    "id": "2026-10-18-1400-sport-3",
+    "tags": [
+      "tennis",
+      "atp-shanghai"
+    ],
+    "fonte": "sport.sky.it"
+  },
+  {
+    "id": "2026-10-18-1400-cronaca-1",
+    "tags": [
+      "cronaca-italia",
+      "milano",
+      "proteste"
+    ],
+    "fonte": "ansa.it"
+  },
+  {
+    "id": "2026-10-18-1400-cronaca-2",
+    "tags": [
+      "vaticano",
+      "cronaca-italia"
+    ],
+    "fonte": "ansa.it"
+  },
+  {
+    "id": "2026-10-18-1400-cronaca-3",
+    "tags": [
+      "francia",
+      "cronaca-estero",
+      "proteste"
+    ],
+    "fonte": "ansa.it"
+  },
+  {
+    "id": "2026-10-18-1400-cronaca-4",
+    "tags": [
+      "femminicidio",
+      "cronaca-italia"
+    ],
+    "fonte": "ansa.it"
   }
 ]

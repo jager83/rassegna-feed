@@ -1,0 +1,152 @@
+{
+  "giro": "2026-10-18-1400",
+  "generato": "2026-10-18T14:08:25+02:00",
+  "scarno": true,
+  "avvisi": [
+    "giro scarno: poche fonti web e AI con notizie nella finestra di date"
+  ],
+  "voci": [
+    {
+      "id": "2026-10-18-1400-ai-1",
+      "sezione": "ai",
+      "titolo": "web-edit 0.1a2: copia negli appunti di testo e immagini",
+      "sintesi": "Simon Willison rilascia la versione 0.1a2 di web-edit, una piccola web app per sfogliare e modificare i file di una cartella, pensata per lavorare su macchine diverse tramite Tailscale. La novità è il pulsante per copiare negli appunti sia testo sia immagini.",
+      "perche": "Esempio concreto di utility minuscola costruita con l'AI per un bisogno quotidiano (copiare log da un telefono verso un Gist): spunto per tool interni personali.",
+      "provalo": "https://github.com/simonw/web-edit/releases/tag/0.1a2",
+      "tags": [
+        "utility",
+        "simonwillison",
+        "tailscale"
+      ],
+      "fonte": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1400-web-1",
+      "sezione": "web",
+      "titolo": "Gemini 4 Argon arriva in AI Mode di Google Search, ora con link",
+      "sintesi": "Google rende Gemini 4 Argon selezionabile in AI Mode per gli abbonati AI Pro e Ultra in tutto il mondo. Migliora i compiti multi-passo e il seguire le istruzioni nelle conversazioni; a differenza di Gemini 3.8 Flash, le risposte includono link alle fonti.",
+      "perche": "I link nelle risposte di AI Mode cambiano il modo in cui i contenuti vengono citati e portano traffico: rilevante per SEO e analytics dei siti WordPress.",
+      "tags": [
+        "google-search",
+        "gemini",
+        "ai-mode"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/google-ai-mode-gemini-4-argon-42289.html",
+      "data": "2026-10-13",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-18-1400-sport-1",
+      "sezione": "sport",
+      "titolo": "Napoli, il peggior avvio da oltre vent'anni dopo la sconfitta a Venezia",
+      "sintesi": "Il Napoli perde 1-0 a Venezia, con De Bruyne che sbaglia un rigore nella ripresa. Secondo Opta è il peggior avvio stagionale dal 2001/02; Allegri invita a guardare le prestazioni e punta a ripartire dalla Champions contro il Bodø/Glimt.",
+      "perche": "Calcio è un tuo interesse alto: la crisi del Napoli di Allegri è la storia del momento in Serie A.",
+      "tags": [
+        "calcio",
+        "serie-a",
+        "napoli"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/calcio/serie-a/2026/10/18/napoli-sconfitta-analisi-reazioni",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1400-sport-2",
+      "sezione": "sport",
+      "titolo": "Verstappen a Portimão: nono al debutto nella Endurance Cup GT3",
+      "sintesi": "Max Verstappen, al debutto nella GT World Challenge Europe Endurance Cup con la Mercedes-AMG, rimonta dal 24° al 9° posto nell'ultima ora. Valentino Rossi con la BMW del team WRT si ferma per la rottura di un braccio della sospensione.",
+      "perche": "Un volto della F1 (interesse medio) in una gara endurance: lettura leggera dal mondo dei motori.",
+      "tags": [
+        "motorsport",
+        "gtwc",
+        "verstappen"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/motori/2026/10/18/gtwc-portimao-verstappen-rossi",
+      "data": "2026-10-18",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-18-1400-sport-3",
+      "sezione": "sport",
+      "titolo": "Davidovich Fokina vince il Masters 1000 di Shanghai",
+      "sintesi": "Davidovich Fokina batte il connazionale Jodar 1-6, 7-6, 6-4 in 2 ore e 26 minuti. È il primo titolo 1000 della carriera e da lunedì sale al numero 13 del mondo; Shelton è matematicamente qualificato alle ATP Finals di Torino.",
+      "perche": "Chiude il torneo di Shanghai che stavi seguendo e ridisegna la corsa verso le Finals di Torino.",
+      "tags": [
+        "tennis",
+        "atp-shanghai"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/tennis/2026/10/18/jodar-davidovich-fokina-atp-shanghai-risultato",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1400-cronaca-1",
+      "sezione": "cronaca",
+      "titolo": "Scontri a Milano dopo le proteste sul carovita: 28 arresti e 141 agenti feriti",
+      "sintesi": "Dopo i cortei del 17 ottobre contro il carovita sono state identificate 197 persone, 28 arrestate (12 minorenni) e 43 denunciate; 141 gli agenti feriti. Confcommercio stima oltre 500 mila euro di danni; Meloni esprime solidarietà alle forze dell'ordine e Piantedosi annuncia indagini.",
+      "perche": "Cronaca italiana, tuo interesse alto, con ricadute anche su Milano.",
+      "tags": [
+        "cronaca-italia",
+        "milano",
+        "proteste"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/scontri-a-milano-28-arresti-e-197-identificati-diversi-minori-e-stranieri.-meloni-siamo_397d8359-98ac-4ba2-840f-a55dcb988745.html",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1400-cronaca-2",
+      "sezione": "cronaca",
+      "titolo": "Il Papa all'Angelus dopo la dimissione dal Gemelli: «Riprenderò gradualmente»",
+      "sintesi": "Leone XIV si affaccia per l'Angelus il giorno dopo aver lasciato il Gemelli e annuncia che riprenderà gradualmente le attività. Ringrazia medici e fedeli; in piazza San Pietro almeno 15 mila persone.",
+      "perche": "Segui già le notizie dal Vaticano e Italia: aggiornamento sulla salute del Papa.",
+      "tags": [
+        "vaticano",
+        "cronaca-italia"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/il-papa-si-affaccia-per-langelus-riprendero-le-attivita-gradualmente_74dcf119-92a0-46e7-986f-16343122a321.html",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1400-cronaca-3",
+      "sezione": "cronaca",
+      "titolo": "Macron parlerà alla nazione alle 20 dopo le proteste",
+      "sintesi": "L'Eliseo annuncia un intervento televisivo del presidente francese alle 20. Arriva dopo le proteste per il carovita, con un numero record di 855 fermi a Parigi.",
+      "perche": "Cronaca estera vicina all'Italia: le proteste sul carovita attraversano anche la Francia.",
+      "tags": [
+        "francia",
+        "cronaca-estero",
+        "proteste"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/18/macron-stasera-parlera-alla-nazione_d15e142b-0b12-4bb0-9dc3-5b7e8822f87d.html",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1400-cronaca-4",
+      "sezione": "cronaca",
+      "titolo": "Varese, scontro frontale: la accusa diventa femminicidio",
+      "sintesi": "La procura di Busto Arsizio cambia l'accusa contro un 73enne da omicidio stradale a femminicidio per la morte della ex compagna di 69 anni a Cassano Magnago. Secondo i magistrati avrebbe causato volontariamente lo scontro; a luglio c'era una denuncia per stalking. Indagini in corso.",
+      "perche": "Cronaca italiana di rilievo, in linea con i tuoi interessi.",
+      "tags": [
+        "femminicidio",
+        "cronaca-italia"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/muore-nello-scontro-con-lauto-dellex-accusa-femminicidio_df46c31f-7782-446c-9c71-149bc4d5863a.html",
+      "data": "2026-10-18",
+      "esplorazione": false
+    }
+  ]
+}
