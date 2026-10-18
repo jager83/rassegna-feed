@@ -1,0 +1,133 @@
+{
+  "giro": "2026-10-18-1630",
+  "generato": "2026-10-18T16:37:08+02:00",
+  "scarno": true,
+  "avvisi": [
+    "ai: nessuna notizia nuova verificabile per oggi o ieri oltre a quelle già pubblicate"
+  ],
+  "voci": [
+    {
+      "id": "2026-10-18-1630-web-1",
+      "sezione": "web",
+      "titolo": "Bing testa l'etichetta «Popular Links» sui sitelink",
+      "sintesi": "Microsoft sta provando un'etichetta «Popular Links» sui sitelink nei risultati di Bing. Il test è stato segnalato il 14 ottobre; resta poco chiaro se riguardi i risultati organici o gli annunci sponsorizzati. Ricorda un test analogo di Google Ads con i link «Top Pages».",
+      "perche": "Cambia il modo in cui le pagine interne del tuo sito possono comparire nei risultati: utile da tenere d'occhio per chi cura SEO e struttura dei link.",
+      "tags": [
+        "bing",
+        "seo",
+        "search"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/bing-testing-popular-links-42304.html",
+      "data": "2026-10-16",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-18-1630-web-2",
+      "sezione": "web",
+      "titolo": "Google Ads apre le certificazioni per il gioco d'azzardo online",
+      "sintesi": "Da ottobre alcuni inserzionisti possono richiedere la certificazione per pubblicizzare il gioco d'azzardo online, tramite il Centro assistenza o la sezione Admin > Policy > Account. Il rollout è graduale e le certificazioni già esistenti non cambiano.",
+      "perche": "Novità di policy nell'ecosistema Google Ads: rilevante se gestisci tracciamento e landing per clienti in settori regolamentati.",
+      "tags": [
+        "google-ads",
+        "policy"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/google-ads-online-gambling-certification-42314.html",
+      "data": "2026-10-16",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1630-sport-1",
+      "sezione": "sport",
+      "titolo": "Udinese-Lecce 0-3: quinta sconfitta di fila per i friulani",
+      "sintesi": "Il Lecce vince a Udine con gol di Gaspar, N'Dri e Siebert. Per l'Udinese è il quinto ko consecutivo; la società non vuole decisioni affrettate sulla panchina di Runjaic.",
+      "perche": "Serie A, settima giornata: calcio è tra i tuoi interessi principali.",
+      "tags": [
+        "calcio",
+        "serie-a"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-7/udinese-lecce/video-highlights",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1630-sport-2",
+      "sezione": "sport",
+      "titolo": "Bulega chiude la Superbike a Jerez con la tripletta e il 32° successo",
+      "sintesi": "Nicolò Bulega vince anche Gara 2 a Jerez, nonostante la pioggia finale, e chiude la stagione da campione del mondo con un record di 32 vittorie. Dal 2027 correrà in MotoGP con il team VR46. Sul podio Lecuona e Lowes, nell'ultima gara di Bautista in Superbike.",
+      "perche": "Motori e pilota italiano in passaggio alla MotoGP: tema vicino alla F1, che segui.",
+      "tags": [
+        "superbike",
+        "motogp"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/motogp/2026/10/18/superbike-2026-jerez-gara-2-risultati-classifica",
+      "data": "2026-10-18",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-18-1630-sport-3",
+      "sezione": "sport",
+      "titolo": "Chwalinska vince il WTA 1000 di Wuhan in rimonta su Kartal",
+      "sintesi": "Maja Chwalinska batte Sonay Kartal 2-6, 6-4, 6-2 ed è la prima volta che vince un 1000. Da lunedì sale all'11° posto del ranking.",
+      "perche": "Tennis, tra gli sport che segui.",
+      "tags": [
+        "tennis",
+        "wta"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/tennis/2026/10/18/chwalinska-kartal-wta-wuhan-risultato-highlights",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1630-cronaca-1",
+      "sezione": "cronaca",
+      "titolo": "Francia, record di 855 fermi a Parigi durante le proteste",
+      "sintesi": "Dopo le manifestazioni di sabato contro il carovita e le carenze della scuola, la polizia parla di 855 fermi a Parigi e oltre 1.200 arresti nel Paese, con scontri, incendi e saccheggi. Macron parlerà alla nazione alle 20.",
+      "perche": "Prosegue il filone proteste e carovita che stai seguendo in Italia e Francia.",
+      "tags": [
+        "francia",
+        "proteste",
+        "cronaca-estero"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/18/la-polizia-francese-numero-record-di-855-fermi-a-parigi-durante-le-proteste_2aeef560-dded-49f0-b82b-97ffd9004684.html",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1630-cronaca-2",
+      "sezione": "cronaca",
+      "titolo": "Allarme drone in Lituania: decollano due Eurofighter italiani",
+      "sintesi": "Due caccia italiani sotto comando Nato sono decollati dopo la segnalazione di un drone; allarme nelle contee di Panevėžys e Šiauliai, revocato dopo circa un'ora. Frammenti trovati a Juodžionys, forse entrati dalla Polonia. Il premier lituano non esclude il sabotaggio.",
+      "perche": "Coinvolge direttamente l'Aeronautica italiana, quindi rientra nella cronaca Italia ed estero.",
+      "tags": [
+        "lituania",
+        "nato",
+        "cronaca-estero"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/18/allarme-in-lituania-per-possibile-drone-popolazione-invitata-ad-andare-nei-rifugi_5919d6be-2347-43cb-bc66-245437e9ed27.html",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-1630-cronaca-3",
+      "sezione": "cronaca",
+      "titolo": "Nubifragio all'Elba: allagamenti a Cavo, fosso a livello di guardia a Bagnaia",
+      "sintesi": "Un temporale ha colpito il nord-est dell'isola, con il lungomare di Cavo allagato e danni alle attività commerciali. La Protezione civile è al lavoro; l'allerta gialla resta in vigore fino alle 10 del 19 ottobre.",
+      "perche": "Cronaca italiana, tema con peso alto nel tuo profilo.",
+      "tags": [
+        "maltempo",
+        "cronaca-italia"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/nubifragio-allelba-allagamenti-nella-zona-di-cavo_a45d53d6-0995-44be-a32c-4e3336c507bb.html",
+      "data": "2026-10-18",
+      "esplorazione": false
+    }
+  ]
+}

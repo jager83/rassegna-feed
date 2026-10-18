@@ -398,5 +398,72 @@
       "cronaca-italia"
     ],
     "fonte": "ansa.it"
+  },
+  {
+    "id": "2026-10-18-1630-web-1",
+    "tags": [
+      "bing",
+      "seo",
+      "search"
+    ],
+    "fonte": "seroundtable.com"
+  },
+  {
+    "id": "2026-10-18-1630-web-2",
+    "tags": [
+      "google-ads",
+      "policy"
+    ],
+    "fonte": "seroundtable.com"
+  },
+  {
+    "id": "2026-10-18-1630-sport-1",
+    "tags": [
+      "calcio",
+      "serie-a"
+    ],
+    "fonte": "sport.sky.it"
+  },
+  {
+    "id": "2026-10-18-1630-sport-2",
+    "tags": [
+      "superbike",
+      "motogp"
+    ],
+    "fonte": "sport.sky.it"
+  },
+  {
+    "id": "2026-10-18-1630-sport-3",
+    "tags": [
+      "tennis",
+      "wta"
+    ],
+    "fonte": "sport.sky.it"
+  },
+  {
+    "id": "2026-10-18-1630-cronaca-1",
+    "tags": [
+      "francia",
+      "proteste",
+      "cronaca-estero"
+    ],
+    "fonte": "ansa.it"
+  },
+  {
+    "id": "2026-10-18-1630-cronaca-2",
+    "tags": [
+      "lituania",
+      "nato",
+      "cronaca-estero"
+    ],
+    "fonte": "ansa.it"
+  },
+  {
+    "id": "2026-10-18-1630-cronaca-3",
+    "tags": [
+      "maltempo",
+      "cronaca-italia"
+    ],
+    "fonte": "ansa.it"
   }
 ]
