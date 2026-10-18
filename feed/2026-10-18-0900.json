@@ -1,0 +1,229 @@
+{
+  "giro": "2026-10-18-0900",
+  "generato": "2026-10-18T09:05:39+02:00",
+  "scarno": false,
+  "avvisi": [],
+  "voci": [
+    {
+      "id": "2026-10-18-0900-ai-1",
+      "sezione": "ai",
+      "titolo": "GitHub: autofix agentico per gli alert di code scanning è disponibile",
+      "sintesi": "Copilot può prendere in carico fino a 25 alert di code scanning, esplorare il codice, proporre una correzione, rilanciare CodeQL per verificarla e aprire una pull request in bozza. Disponibile per clienti Code Security e Advanced Security su Enterprise Cloud, con consumo di AI Credits.",
+      "perche": "Mostra un flusso agentico completo (correggi, verifica, PR) già in produzione: un modello utile per progettare i tuoi agenti di review.",
+      "tags": [
+        "agenti",
+        "code-review",
+        "github"
+      ],
+      "fonte": "github.blog",
+      "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+      "data": "2026-10-15",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-0900-ai-2",
+      "sezione": "ai",
+      "titolo": "GitHub Actions: i lockfile dei workflow in anteprima pubblica",
+      "sintesi": "Il file .github/workflows/actions.lock registra i commit esatti di action e dipendenze transitive, così un tag spostato non cambia il codice eseguito. Si gestisce con l'estensione gh actions-lock e Dependabot aggiorna il lockfile nelle sue PR.",
+      "perche": "Riduce il rischio di supply chain nelle pipeline CI dei tuoi progetti WordPress e frontend.",
+      "provalo": "gh extension install github/gh-actions-lock",
+      "tags": [
+        "github-actions",
+        "sicurezza",
+        "ci"
+      ],
+      "fonte": "github.blog",
+      "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
+      "data": "2026-10-14",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-0900-ai-3",
+      "sezione": "ai",
+      "titolo": "GitHub AI Scan: analisi di sicurezza AI sulle pull request",
+      "sintesi": "AI Scan integra CodeQL nei linguaggi che non copre, come PHP, Shell, Terraform e Dockerfile. I risultati sono consultivi, con spiegazione del rischio e autofix suggerito. Gratis sui repo pubblici, a pagamento (Code Security) sui privati.",
+      "perche": "Copre PHP: utile per temi e plugin WordPress.",
+      "tags": [
+        "code-review",
+        "sicurezza",
+        "github"
+      ],
+      "fonte": "github.blog",
+      "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available",
+      "data": "2026-10-15",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-18-0900-ai-4",
+      "sezione": "ai",
+      "titolo": "Anthropic: ricavi trimestrali a 16,8 miliardi di dollari in vista dell'IPO",
+      "sintesi": "Secondo il Financial Times, riportato da Simon Willison, i ricavi del terzo trimestre sono saliti di quasi il 50% a 16,8 miliardi, con margine operativo rettificato dell'11%. La distillazione da parte di altri laboratori pesava il 5-7% dei ricavi ed è stata ridotta.",
+      "perche": "Dà la misura della traiettoria economica dei modelli su cui costruisci il tuo flusso di lavoro con Claude Code.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "ai"
+      ],
+      "fonte": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "data": "2026-10-15",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-0900-web-1",
+      "sezione": "web",
+      "titolo": "Rendering inline con document.currentScript",
+      "sintesi": "Lean Rada mostra come uno <script> inline possa sostituirsi con un valore calcolato usando document.currentScript.replaceWith(). Una piccola funzione di scorciatoia trasforma la tecnica in un mini linguaggio di template.",
+      "perche": "Trucco vanilla JS senza build step, comodo per blocchi HTML personalizzati in WordPress.",
+      "provalo": "The year is <script>document.currentScript.replaceWith(new Date().getFullYear())</script>",
+      "tags": [
+        "javascript",
+        "vanilla-js"
+      ],
+      "fonte": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-0900-web-2",
+      "sezione": "web",
+      "titolo": "Google Ads: lead scoring nei moduli lead",
+      "sintesi": "Le domande personalizzate dei Lead Form permettono di marcare fino a 12 risposte come indicative di un lead qualificato. La funzione è legata agli strumenti di lead management e si trova in Asset > Lead Form.",
+      "perche": "Utile se gestisci campagne e tracciamento conversioni per siti WordPress.",
+      "tags": [
+        "google-ads",
+        "analytics"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/google-ads-lead-form-scoring-42310.html",
+      "data": "2026-10-16",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-18-0900-web-3",
+      "sezione": "web",
+      "titolo": "Bing testa i link \"leggi altro\" negli snippet",
+      "sintesi": "Microsoft sta provando un link \"read more\" in fondo agli snippet dei risultati organici, che porta alla stessa pagina del titolo. Google aveva introdotto qualcosa di simile circa un anno fa.",
+      "perche": "Cambia il modo in cui gli snippet vengono mostrati e potenzialmente cliccati: rilevante per la SEO dei tuoi siti.",
+      "tags": [
+        "seo",
+        "bing",
+        "google-search"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/bing-read-more-links-42311.html",
+      "data": "2026-10-16",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-0900-pillola-1",
+      "sezione": "pillola",
+      "titolo": "document.currentScript: sapere quale script sta girando",
+      "sintesi": "Come funziona document.currentScript, quando vale null (callback, eventi, moduli) e perché import.meta.url è l'alternativa per i moduli.",
+      "perche": "Ti evita errori classici con script inline e widget di terze parti.",
+      "tags": [
+        "javascript",
+        "dom"
+      ],
+      "fonte": "developer.mozilla.org",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/currentScript",
+      "data": "2026-10-18",
+      "esplorazione": false,
+      "corpo": "Quando il browser incontra un <script> classico, lo esegue in modo sincrono: il parsing dell'HTML si ferma, il codice gira, poi si riparte. Durante quell'esecuzione, e solo allora, la proprietà document.currentScript punta all'elemento <script> che sta girando. È un'informazione piccola ma utilissima, perché permette a uno script di sapere \"dove\" si trova nel documento senza id, senza selettori e senza assunzioni sulla struttura della pagina.\n\nIl caso d'uso più semplice è leggere la configurazione passata tramite attributi data-. Immagina un widget di terze parti: <script src=\"widget.js\" data-api-key=\"abc123\"></script>. Dentro widget.js scrivi const el = document.currentScript; const key = el.dataset.apiKey;. Funziona anche se la pagina contiene dieci istanze dello stesso script, perché ogni esecuzione vede il proprio elemento.\n\nIl trucco, ripreso questa settimana da un articolo di Lean Rada segnalato da Simon Willison, è usare currentScript per fare rendering inline: lo script si sostituisce con un valore calcolato. Per esempio: La data è <script>document.currentScript.replaceWith(new Date().toLocaleDateString('it-IT'))</script>. Al termine dell'esecuzione il tag script scompare e al suo posto resta solo il testo. Con una mini funzione $ = (...n) => document.currentScript.replaceWith(...n) si ottiene quasi un linguaggio di template, senza build step né framework. Per un frontend developer che lavora su WordPress è un modo comodo per iniettare piccoli valori dinamici in un tema o in un blocco HTML personalizzato, anche se resta una soluzione da usare con parsimonia: gli script inline bloccano il parsing e possono scontrarsi con una Content Security Policy rigorosa, che li vieta senza nonce o hash.\n\nIl punto critico, e la ragione per cui conviene capirne il funzionamento, è quando la proprietà vale null. Succede in tutti i casi in cui il codice gira dopo la fase iniziale di esecuzione dello script: dentro un setTimeout, in un handler promise, in una risposta di fetch, in un listener di evento come click o load. In quei contesti document.currentScript non esiste più, quindi devi catturare il riferimento subito, in una costante, e usare quella costante nei callback. Un errore classico è scrivere document.currentScript.dataset dentro un addEventListener e ottenere un TypeError.\n\nSeconda eccezione: gli script di tipo module. Un <script type=\"module\"> viene eseguito in modo differito e currentScript non lo referenzia mai. L'alternativa moderna è import.meta.url, che restituisce l'URL del modulo stesso: utile per risolvere percorsi relativi, ad esempio new URL('./icon.svg', import.meta.url). Non ti dà però l'elemento DOM, quindi non puoi leggere gli attributi data- del tag che ha caricato il modulo; per quel caso serve passare la configurazione in altro modo, per esempio tramite un elemento con id noto o un custom element.\n\nAnche gli script con async o defer non cambiano la regola: currentScript vale durante la loro esecuzione, ma l'ordine in cui girano può variare, quindi non fare mai affidamento su \"l'ultimo script nel DOM\" come scorciatoia. currentScript.async permette di sapere se lo script è stato caricato in modo asincrono.\n\nRiepilogo pratico: usa document.currentScript per script classici sincroni, salvalo in una variabile alla prima riga, controlla che non sia null se il file può essere incluso in contesti diversi, e passa a import.meta.url nei moduli. È uno strumento minuscolo, ma risolve bene la comunicazione tra markup e script senza dipendenze."
+    },
+    {
+      "id": "2026-10-18-0900-sport-1",
+      "sezione": "sport",
+      "titolo": "Serie A: Inter rimonta a Bologna e vince 3-1",
+      "sintesi": "I rossoblù passano con Pobega, poi Thuram pareggia prima dell'intervallo e i subentrati Carlos Augusto e Bonny ribaltano la partita. È la quarta vittoria nelle ultime cinque di campionato.",
+      "perche": "Calcio e Serie A rientrano nei tuoi interessi.",
+      "tags": [
+        "calcio",
+        "serie-a",
+        "inter"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/17/serie-a-da-0-1-a-3-1-ancora-una-rimonta-e-linter-passa-al-dallara_5e337012-61f7-4e66-8bdf-7c6e282f61bd.html",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-0900-sport-2",
+      "sezione": "sport",
+      "titolo": "Dibu Martinez operato alla mandibola dopo lo scontro in Everton-Chelsea",
+      "sintesi": "Il portiere del Chelsea ha riportato una lesione ossea alla mandibola dopo un colpo di testa con Branthwaite. Gli esami a testa e collo sono rassicuranti, l'intervento è riuscito e lui promette di tornare tra qualche settimana.",
+      "perche": "Calcio, con focus sul campionato inglese.",
+      "tags": [
+        "calcio",
+        "premier-league"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/calcio/premier-league/2026/10/17/dibu-martinez-scontro-everton-chelsea-infortunio-foto",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-0900-cronaca-1",
+      "sezione": "cronaca",
+      "titolo": "Protesta contro il carovita degenera in scontri a Milano e in altre città",
+      "sintesi": "Giovani vestiti di nero hanno assediato piazza Duomo: almeno 4 agenti e 20 manifestanti feriti, più di 50 fermati, metà minorenni. Scontri anche a Torino, Bologna e Bergamo. Meloni distingue tra diritto di protesta e devastazione.",
+      "perche": "Cronaca italiana, con Milano.",
+      "tags": [
+        "cronaca-italia",
+        "proteste",
+        "milano"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/17/la-protesta-per-il-carovita-diventa-guerriglia-milano-un-campo-di-battaglia_a783ef65-c2c2-4fb9-8d99-7c64d791f43c.html",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-0900-cronaca-2",
+      "sezione": "cronaca",
+      "titolo": "La Cgil in piazza a Roma annuncia lo sciopero generale del 20 novembre",
+      "sintesi": "Landini parla di oltre 100mila presenti in piazza del Popolo. Lo sciopero sarà il quinto contro la manovra del governo Meloni. Il sindacato propone un contributo dell'1% sui patrimoni sopra i 2 milioni.",
+      "perche": "Politica e lavoro in Italia.",
+      "tags": [
+        "cronaca-italia",
+        "lavoro",
+        "manovra"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/10/17/cgil-in-piazza-siamo-100mila-il-20-novembre-sciopero-generale_c4547ea9-f018-4e78-adda-67ad7af8e7d0.html",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-0900-cronaca-3",
+      "sezione": "cronaca",
+      "titolo": "Manovra: verso un vertice lunedì tra Meloni e i leader di maggioranza",
+      "sintesi": "Fonti del centrodestra confermano un vertice con Meloni, Salvini, Tajani, Lupi e il ministro Giorgetti sulla legge di bilancio. La data esatta non è indicata nell'articolo, ma si parla di lunedì.",
+      "perche": "Cronaca politica italiana.",
+      "tags": [
+        "cronaca-italia",
+        "manovra"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/10/17/manovra-verso-un-vertice-lunedi-con-meloni-e-giorgetti_9cf22b8c-3da4-40c0-83a7-088e397c3287.html",
+      "data": "2026-10-17",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-18-0900-cronaca-4",
+      "sezione": "cronaca",
+      "titolo": "Canada: almeno 7 morti in un incendio dopo un'esplosione nella base di Wainwright",
+      "sintesi": "Secondo media canadesi, durante un'esercitazione a fuoco i colpi avrebbero raggiunto una conduttura del gas nella base dell'Alberta. L'incendio ha superato la recinzione. Il ministro della Difesa conferma morti e feriti senza un bilancio preciso.",
+      "perche": "Cronaca estera di rilievo.",
+      "tags": [
+        "cronaca-estero",
+        "canada"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/18/media-canadesi-almeno-7-morti-in-un-incendio-in-una-base-militare_fbc31703-e2cf-4702-86ff-3415d657e789.html",
+      "data": "2026-10-18",
+      "esplorazione": true
+    }
+  ]
+}
