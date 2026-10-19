@@ -1,0 +1,211 @@
+{
+  "giro": "2026-10-19-0900",
+  "generato": "2026-10-19T09:07:50+02:00",
+  "scarno": false,
+  "avvisi": [],
+  "voci": [
+    {
+      "id": "2026-10-19-0900-ai-1",
+      "sezione": "ai",
+      "titolo": "Superlite: plugin per Claude Code che esegue build autonome in parallelo",
+      "sintesi": "Superlite è un plugin per Claude Code: approvi un solo piano, poi il lavoro viene diviso in task paralleli, ciascuno assegnato a un modello adatto, e infine rivisto. Nel benchmark dell'autore un progetto con 177 test è stato completato in 16,1 minuti, circa la metà di superpowers, senza domande all'utente. L'autore sconsiglia di abilitare superpowers nella stessa sessione perché i due plugin confliggono.",
+      "perche": "Mostra come si sta evolvendo l'orchestrazione multi-agente dentro Claude Code: pianificazione unica, parallelismo e revisione automatica. Sono dati di un benchmark dell'autore, da prendere con cautela.",
+      "provalo": "/plugin marketplace add iha2/superlite\n/plugin install superlite@superlite-dev",
+      "tags": [
+        "claude-code",
+        "agenti",
+        "plugin"
+      ],
+      "fonte": "contextfirst.blog",
+      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-19-0900-ai-2",
+      "sezione": "ai",
+      "titolo": "Anthropic destina il 5% delle azioni a un fondo di pubblica utilità",
+      "sintesi": "Anthropic dedica il 5% delle sue azioni al nuovo Anthropic Public Benefit Fund, previa approvazione degli azionisti; il consiglio può aggiungere il 2% per ogni raddoppio di valore oltre una soglia. Il fondo è una LLC controllata, non un ente 501(c)(3), e le azioni non possono finanziare lobbying o politica. Con gli impegni dei cofondatori e il matching dei dipendenti, circa il 20% delle azioni sarà destinato al bene pubblico.",
+      "perche": "Notizia di contesto sul vendor di cui usi Claude Code: governance e finanziamento dell'azienda dietro gli strumenti che usi ogni giorno.",
+      "tags": [
+        "anthropic",
+        "ai"
+      ],
+      "fonte": "anthropic.com",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "data": "2026-10-18",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-19-0900-ai-3",
+      "sezione": "ai",
+      "titolo": "llm-tools-datasette 0.1.1: corretto il bug con LLM 0.33 e httpx2",
+      "sintesi": "Simon Willison pubblica la versione 0.1.1 del plugin che espone istanze Datasette come tool per LLM. Corregge un errore introdotto quando LLM 0.33 è passato a httpx2, che rompeva i plugin che usavano httpx senza dichiararlo come dipendenza diretta.",
+      "perche": "Utile se usi la CLI LLM con plugin: l'aggiornamento a LLM 0.33 può rompere plugin che dipendono da httpx senza dichiararlo.",
+      "provalo": "https://github.com/simonw/llm-tools-datasette/releases/tag/0.1.1",
+      "tags": [
+        "llm",
+        "strumenti-ai",
+        "python"
+      ],
+      "fonte": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-19-0900-web-1",
+      "sezione": "web",
+      "titolo": "Google lancia Universal Cart in Search e nell'app Gemini (USA)",
+      "sintesi": "Google ha lanciato negli Stati Uniti Universal Cart, un carrello unico in Search e nell'app Gemini che raccoglie prodotti di più negozi, segnala variazioni di prezzo, applica codici promo e permette il checkout con Google Pay. Tra i partner citati ci sono Nike, Sephora, Target, Walmart e molti merchant Shopify.",
+      "perche": "Cambia il percorso d'acquisto che parte da Search: chi lavora su e-commerce e analytics dovrà considerare conversioni che passano per Google Pay e Gemini.",
+      "tags": [
+        "google",
+        "search",
+        "e-commerce"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/universal-cart-google-search-42312.html",
+      "data": "2026-10-15",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-19-0900-web-2",
+      "sezione": "web",
+      "titolo": "Google Dataset Search è rimasto senza risultati per circa 24 ore",
+      "sintesi": "Per circa un giorno Google Dataset Search ha risposto «nessun dataset trovato» anche a query come «artificial intelligence». Il problema, segnalato a Barry Schwartz da un lettore, è stato risolto la mattina dopo.",
+      "perche": "Strumento di nicchia, ma ricorda che i servizi Google possono interrompersi senza preavviso: conviene non dipenderne per flussi critici.",
+      "tags": [
+        "google",
+        "search"
+      ],
+      "fonte": "seroundtable.com",
+      "url": "https://www.seroundtable.com/google-dataset-search-broken-42315.html",
+      "data": "2026-10-15",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-19-0900-pillola-1",
+      "sezione": "pillola",
+      "titolo": "Animare verso height: auto con interpolate-size",
+      "sintesi": "Come animare altezza e larghezza verso le parole chiave intrinseche (auto, max-content) senza hack, con interpolate-size: allow-keywords e calc-size().",
+      "perche": "Concetto da avere in tasca per accordion e card espandibili, in arrivo anche su Safari.",
+      "tags": [
+        "css",
+        "animazioni"
+      ],
+      "fonte": "developer.mozilla.org",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/interpolate-size",
+      "data": "2026-10-19",
+      "esplorazione": false,
+      "corpo": "Animare un elemento da `height: 0` a `height: auto` è uno dei classici fastidi del CSS: il browser non sa interpolare un valore numerico con una parola chiave come `auto`, quindi la transizione scatta di colpo. Per anni si è aggirato il problema con `max-height` a valori arbitrari, con JavaScript che misura `scrollHeight`, o con trucchi basati su grid (`grid-template-rows: 0fr` verso `1fr`). Oggi esiste una soluzione nativa: la proprietà `interpolate-size`.\n\nIl funzionamento è semplice. Di default vale `numeric-only`: le dimensioni intrinseche (`auto`, `min-content`, `max-content`, `fit-content`) non sono interpolabili. Impostando `interpolate-size: allow-keywords` il browser accetta di interpolare fra una lunghezza o percentuale e una di queste parole chiave, su `width` e `height`. Importante: almeno uno dei due estremi deve essere un valore numerico. Non si può animare da `min-content` a `max-content`.\n\nLa proprietà è ereditata, quindi la scelta tipica è dichiararla su `:root` e abilitarla per tutto il documento, oppure su un contenitore per limitarne l'effetto. Non è attiva di default perché molti stili esistenti presuppongono che le dimensioni intrinseche non si animino, e attivarla ovunque rischierebbe di cambiare il comportamento di siti già pubblicati.\n\nUn esempio pratico, un pannello che si espande al passaggio del mouse o al focus:\n\n```css\n:root {\n  interpolate-size: allow-keywords;\n}\n\n.panel {\n  height: 2.5rem;\n  overflow: hidden;\n  transition: height 0.3s ease;\n}\n\n.panel:hover,\n.panel:focus-within {\n  height: auto;\n}\n```\n\nSenza la prima regola, il pannello salterebbe da 2,5rem all'altezza finale senza alcuna animazione. Con la regola, la transizione è fluida, e il browser calcola da solo l'altezza di arrivo, anche se il contenuto cambia.\n\nEsiste anche `calc-size()`, una funzione che permette di fare calcoli su dimensioni intrinseche, per esempio `calc-size(auto, size + 2rem)`. Il suo risultato è interpolabile e, quando la usi, `allow-keywords` viene applicato automaticamente alla regola in cui compare. Se ti serve solo animare verso `auto`, `interpolate-size` è più comodo perché ereditato e dichiarato una volta sola; `calc-size()` serve quando devi anche calcolare.\n\nQualche attenzione pratica. Primo, il supporto: secondo MDN la proprietà è sperimentale e non è Baseline, quindi controlla la tabella di compatibilità prima di affidarti a lei. Secondo, trattalo come un progressive enhancement: dove non è supportata, il pannello si apre comunque, solo senza animazione, un degrado accettabile. Terzo, rispetta `prefers-reduced-motion`: avvolgi la transizione in una media query che la disattivi per chi la chiede. Quarto, `overflow: hidden` sul contenitore resta necessario per nascondere il contenuto durante l'animazione.\n\nLa novità è rilevante in questi giorni perché le note di rilascio di Safari Technology Preview 254 citano proprio `interpolate-size` e `calc-size()` fra le funzioni WebKit, segno che il supporto si sta allargando oltre i browser Chromium.\n\nIn sintesi: un `:root { interpolate-size: allow-keywords; }` in cima al foglio di stile ti permette di eliminare molti hack per accordion, menu a tendina e card espandibili, mantenendo il codice dichiarativo."
+    },
+    {
+      "id": "2026-10-19-0900-sport-1",
+      "sezione": "sport",
+      "titolo": "La Lazio batte 3-0 la Juventus e raggiunge l'Inter in testa",
+      "sintesi": "All'Allianz Stadium la Lazio vince 3-0 con Provstgaard, Isaksen e Dele-Bashiru e affianca l'Inter in vetta. La Juventus, a otto punti dalla testa, esce fischiata dai suoi tifosi. Nello stesso turno Como-Fiorentina 3-1, Milan-Atalanta 3-2 e Udinese-Lecce 0-3.",
+      "perche": "Serie A e Juventus: il risultato più rilevante della giornata.",
+      "tags": [
+        "calcio",
+        "serie-a",
+        "juventus"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/sport/2026/10/18/serie-a-la-juve-crolla-la-lazio-vola-ed-e-in-testa-con-linter_fbbef75c-2606-4c53-a729-a23a275d3dd6.html",
+      "data": "2026-10-18",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-19-0900-sport-2",
+      "sezione": "sport",
+      "titolo": "F1, Antonelli può vincere il titolo ad Austin: le combinazioni",
+      "sintesi": "Antonelli ha 102 punti su Russell e può laurearsi campione ad Austin il 25 ottobre se vince la gara, con Russell almeno nono e Hamilton almeno quinto. Deve inoltre chiudere 23 punti davanti a Russell, 14 su Hamilton e 6 su Verstappen. Se esce da Austin con 125 punti di vantaggio sul secondo, il titolo è suo.",
+      "perche": "F1 è tra i tuoi sport: primo match point mondiale per un pilota italiano.",
+      "tags": [
+        "f1",
+        "antonelli"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/formula-1/antonelli-campione-f1-2026-se-combinazioni",
+      "data": "2026-10-19",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-19-0900-sport-3",
+      "sezione": "sport",
+      "titolo": "ATP: Zverev a 880 punti da Sinner, il sorpasso slitta",
+      "sintesi": "Dopo Shanghai Zverev è a 880 punti da Sinner: il sorpasso non può arrivare prima della fine di Vienna e potrebbe avvenire dopo Parigi, il 9 novembre. Sinner è già sicuro di chiudere la stagione al secondo posto, Cobolli sale sesto.",
+      "perche": "Tennis e italiani: aggiornamento sulla classifica.",
+      "tags": [
+        "tennis",
+        "atp",
+        "sinner"
+      ],
+      "fonte": "sport.sky.it",
+      "url": "https://sport.sky.it/tennis/classifica-atp-italiani",
+      "data": "2026-10-19",
+      "esplorazione": true
+    },
+    {
+      "id": "2026-10-19-0900-cronaca-1",
+      "sezione": "cronaca",
+      "titolo": "Milano, due giorni di saccheggi e disordini durante il corteo contro il carovita",
+      "sintesi": "Centinaia di giovani, in gran parte mascherati e minorenni, hanno devastato e saccheggiato negozi del centro di Milano durante la manifestazione contro il carovita. La polizia ha impiegato ore a riprendere il controllo e ha fermato o arrestato decine di persone. Il sindaco Sala e il ministro Piantedosi si sono scontrati sull'adeguatezza delle forze dell'ordine.",
+      "perche": "Cronaca italiana che ha dominato il fine settimana.",
+      "tags": [
+        "cronaca-italia",
+        "milano"
+      ],
+      "fonte": "ilpost.it",
+      "url": "https://www.ilpost.it/2026/10/19/milano-devastazioni-saccheggi-scontri-negozi-polizia-manifestazione/",
+      "data": "2026-10-19",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-19-0900-cronaca-2",
+      "sezione": "cronaca",
+      "titolo": "Macron respinge le dimissioni del ministro dell'Interno Nuñez",
+      "sintesi": "Dopo le violente proteste in Francia Macron critica le carenze nell'ordine pubblico ma rifiuta le dimissioni di Laurent Nuñez, sostenendo che serve continuità alla guida della polizia. Chiede trasparenza su pianificazione e lacune di intelligence e nuovi metodi operativi.",
+      "perche": "Estero: crisi di ordine pubblico in Francia.",
+      "tags": [
+        "cronaca-estero",
+        "francia"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/19/macron-critica-carenze-ordine-pubblico-ma-respinge-dimissioni-ministro-interno_56909b29-acfd-4f0f-a90d-74a2ddd2731f.html",
+      "data": "2026-10-19",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-19-0900-cronaca-3",
+      "sezione": "cronaca",
+      "titolo": "Missili russi su Kiev: un morto e otto feriti",
+      "sintesi": "Un attacco notturno russo su Kiev ha causato un morto e otto feriti secondo i soccorsi ucraini, con incendi e danni a un edificio scolastico, a una struttura sanitaria e a una stazione della metro. Mosca dice di aver colpito siti industriali militari e depositi di missili e droni.",
+      "perche": "Estero: guerra in Ucraina.",
+      "tags": [
+        "cronaca-estero",
+        "ucraina"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/19/missili-russi-su-kiev-un-morto-e-otto-feriti_880ccfc3-f526-4c4a-9def-79024e582454.html",
+      "data": "2026-10-19",
+      "esplorazione": false
+    },
+    {
+      "id": "2026-10-19-0900-cronaca-4",
+      "sezione": "cronaca",
+      "titolo": "Schlein: «Pronta a candidarmi a Palazzo Chigi, con o senza primarie»",
+      "sintesi": "L'assemblea nazionale del Pd ha approvato con 578 sì, 3 no e 26 astenuti un ordine del giorno che indica Schlein come unica candidata premier. I riformisti di Guerini si sono astenuti; il mandato di Schlein alla guida del partito è prorogato all'unanimità.",
+      "perche": "Politica italiana.",
+      "tags": [
+        "cronaca-italia",
+        "politica"
+      ],
+      "fonte": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/10/18/schlein-sono-pronta-a-candidarmi-con-o-senza-le-primarie_68325ea6-8145-45ec-add6-1db6a16ef38a.html",
+      "data": "2026-10-18",
+      "esplorazione": false
+    }
+  ]
+}

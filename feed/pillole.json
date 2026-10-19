@@ -7,5 +7,14 @@
       "javascript",
       "dom"
     ]
+  },
+  {
+    "id": "2026-10-19-0900-pillola-1",
+    "data": "2026-10-19",
+    "titolo": "Animare verso height: auto con interpolate-size",
+    "tags": [
+      "css",
+      "animazioni"
+    ]
   }
 ]
